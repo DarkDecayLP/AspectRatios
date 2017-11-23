@@ -7,6 +7,16 @@ body {
   color: #fff;
 }
 
+h2 {
+  color: #fff;
+  font-size:35px;;
+}
+
+h3 {
+  color: #005997;
+  font-size:25px;
+}
+
 .myButton {
   background-color:#007dc1;
   width: 75px;
@@ -24,9 +34,28 @@ body {
   margin-right: 10px;
 }
 .myButton:hover {
-  background-color:#0061a7;
+  background-color:#5692bb;
 }
 .myButton:active {
   position:relative;
   top:1px;
+}
+
+
+
+table.greyGridTable {
+  width: 400px;
+  text-align: center;
+  border-collapse: collapse;
+  display: inline-table;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+table.greyGridTable thead th {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+    color: #5692bb;
 }
