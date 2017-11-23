@@ -1,0 +1,32 @@
+body {
+  background-color: #232323;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  font-family: Arial;
+  color: #fff;
+}
+
+.myButton {
+  background-color:#007dc1;
+  width: 75px;
+  height: 75px;
+  border-radius:14px;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:20px;
+  text-decoration:none;
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+.myButton:hover {
+  background-color:#0061a7;
+}
+.myButton:active {
+  position:relative;
+  top:1px;
+}
